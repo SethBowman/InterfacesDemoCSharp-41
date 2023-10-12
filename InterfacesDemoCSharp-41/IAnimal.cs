@@ -8,7 +8,7 @@ namespace InterfacesDemoCSharp_41
 {
     public interface IAnimal
     {
-        //Cannot have fieds in an interface
+        //Cannot have fields in an interface
         public string Name { get; set; }
         public int Age { get; set; }
         public int NumberOfLegs { get; set; }
